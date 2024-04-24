@@ -1,0 +1,44 @@
+
+.like-container {
+    margin-top: 30px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    width: 310px;
+    height: 120px;
+    border: 2px solid black;
+
+  }
+  .cuerpo-like{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  span{
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  
+  #like-button {
+    padding: 7px 20px;
+    font-size: 15px;
+    background-color: #f39e1f;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  #like-button:hover {
+    background-color: #ffc107;
+    color: #ffffff;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  #like-numero {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+  

@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    width: 60%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 60%;
+  }
+  .like-container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: end;
+    margin-top: 0px;
+    width: 60%;
+  }
+  .perfil-container{
+    display: flex;
+    width: 30%;
+    margin-right: 10%;
+   
+  }
+  
+  .like-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .like-count {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+  /**/
+  
+.like {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 120px;
+    border: 2px solid black;
+
+  }
+  .cuerpo-like{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  span{
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  .spann{
+    margin-left: 5px;
+  }
+  
+  #like-boton {
+    padding: 7px 20px;
+    font-size: 15px;
+    background-color: #f39e1f;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  #like-boton:hover {
+    background-color: #ffc107;
+    color: #ffffff;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+  }
+  
+  #like-numero {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+
+
+  /**/
+
+  .avatarSmall{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    left: 5px;
+    display: inline-block;
+}
+.cuadroPerfil{
+  margin-top: 10px;
+  border: 2px solid black;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.linkSamp {
+  color: blue;
+  text-decoration: underline;
+}
